@@ -11,16 +11,15 @@ ul {
 }
 
 body{
-    background-color: limegreen;
+    background-color: rgb(255, 164, 36);
 }
 
 /* header sytles */
 
 header {
-    background-color: hotpink;
+    background-color: rgb(255, 186, 221);
     padding: 10px 0px 10px 0px;
-    
-    
+
 }
 
 
@@ -29,6 +28,12 @@ header {
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.push {
+    margin-left: auto;
 }
 
 .section-one {
