@@ -113,7 +113,17 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption{
+    font-size: 20px;
+    font-style: italic;
+    color:aliceblue;
+    align-items: center;
+    justify-content: center;
 }
 
 /* section 5 media items */
